@@ -1,0 +1,27 @@
+0	26	 52960	1563031772	1563045623	1563045623	
+1	source::Perfmon:Network Interface	  2661	1563031772	1563045623	1563045623	
+2	source::Perfmon:CPU Load	  2738	1563031772	1563045623	1563045623	
+3	source::Perfmon:Available Memory	  1369	1563031772	1563045623	1563045623	
+4	source::WinEventLog:Security	 34	1563032170	1563045614	1563045615	
+5	source::WinEventLog:System	  7	1563032170	1563044479	1563044481	
+6	source::WinEventLog:Application	464	1563033655	1563045607	1563045608	
+7	source::Perfmon:Free Disk Space	     6	1563035342	1563042543	1563042543	
+8	source::/nsm/bro/logs/current/software.log	  6	1563039066	1563044744	1563044745	
+9	source::/nsm/bro/logs/current/conn.log	 35791	1563038987	1563045454	1563045484	
+10	source::/nsm/bro/logs/current/known_hosts.log	  5	1563039066	1563044744	1563044745	
+11	source::/nsm/bro/logs/current/capture_loss.log	  7	1563039882	1563045282	1563045283	
+12	source::/nsm/bro/logs/current/dns.log	612	1563038987	1563045455	1563045475	
+13	source::/nsm/bro/logs/current/known_services.log	     6	1563039067	1563045152	1563045453	
+14	source::/nsm/bro/logs/current/http.log	  3881	1563039076	1563045479	1563045480	
+15	source::/nsm/bro/logs/current/ssh.log	  5	1563039066	1563044744	1563044751	
+16	source::/nsm/sensor_data/security-onion-ens34/snort-1.stats	 22	1563032970	1563045300	1563045300	
+17	source::script://./bin/disk.sh	  1	1563039939	1563039939	1563039939	
+18	source::script://./bin/ifconfig.sh	  1	1563039941	1563039941	1563039941	
+19	source::script://./bin/nsm_log_archive.sh	                    1	1563039944	1563039944	1563039944	
+20	source::script://./bin/nsm_sensor_ps-status.sh	  1	1563039947	1563039947	1563039947	
+21	source::script://./bin/top.sh	  1	1563039951	1563039951	1563039951	
+22	source::/nsm/bro/logs/current/notice.log	 12	1563039985	1563045444	1563045445	
+23	source::/nsm/bro/logs/current/ssl.log	 90	1563039985	1563045482	1563045483	
+24	source::/nsm/bro/logs/current/known_certs.log	  1	1563039985	1563039985	1563039985	
+25	source::/nsm/bro/logs/current/weird.log	                          5190	1563040054	1563045435	1563045438	
+26	source::/nsm/bro/spool/stats.log	 48	1563043807	1563045008	1563045009	
