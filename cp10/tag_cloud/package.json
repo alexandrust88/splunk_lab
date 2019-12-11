@@ -1,7 +1,7 @@
 {
   "name": "tag_cloud",
   "version": "1.0.0",
-  "description": "Splunk Operational Cookbook Tag Cloud Recipe",
+  "description": "Splunk  Cloud Recipe",
   "main": "visualization.js",
   "scripts": {
     "build": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js",
