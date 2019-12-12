@@ -46,5 +46,3 @@ for i in range(30000):
     payload.update({"event":event})
     testevent.batchEvent(payload)
 testevent.flushBatch()
-
-# be sure to call flushBatch() before ending your code. Otherwise you risk ending before all threads have flushed.
