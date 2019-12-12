@@ -1,8 +1,5 @@
 """splunk_http_event_collector.py
-    Splunk HTTP event submission class
 
-    Remember: Friends don't let friends send in non Common Information Model data: http://docs.splunk.com/Documentation/CIM/latest/User/Overview
-        Please use CIM friendly field names when sending in data.
 """
 
 __author__ = "testing"
