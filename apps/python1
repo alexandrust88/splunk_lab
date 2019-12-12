@@ -5,7 +5,7 @@
         Please use CIM friendly field names when sending in data.
 """
 
-__author__ = "playing with splunk"
+__author__ = "testing"
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -26,8 +26,26 @@ else:
 
 class http_event_collector:
 
+    """
+        Splunk HTTP Event Collector Class
 
 
+
+            from splunk_http_event_collector import http_event_collector
+            testeventJSON = http_event_collector("4D14F8D9-D788-4E6E-BF2D-D1A46441242E","localhost")
+
+     """
+
+    # Default batch max size to match splunk's default limits for max byte
+    # See http_input stanza in limits.conf; note in testing I had to limit to 100,000 to avoid http event collector breaking connection
+    # Auto flush will occur if next event payload will exceed limit
+    maxByteLength = 100000
+    threadCount = 10
+
+    # An improved requests retry method from
+    # https://www.peterbe.com/plog/best-practice-with-retries-with-requests
+    # 503 added for endpoint busy
+    # 408 added in case using HAproxy
 
     def requests_retry_session(self, retries=3,backoff_factor=0.3,status_forcelist=(408,500,502,503,504),session=None):
         session = session or requests.Session()
